@@ -1,0 +1,16 @@
+{application, sv_acceptor,
+ [{description, "Rate limited acceptor regulated by safetyvalve"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    acceptor_pool,
+    safetyvalve
+   ]},
+  {env,[]},
+  {modules, []},
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
